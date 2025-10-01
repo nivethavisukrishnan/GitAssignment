@@ -50,8 +50,7 @@ _Below are the 4 Test Scenarios and their respective Test File names in Project_
 - Test Scenario 3 → `AddRouteAsFavouriteTest`  
 - Test Scenario 4 → `ValidateBusTimesTest`  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+[Back to Top](#translink-bus-schedule-lookup-automation)
 
 
 
