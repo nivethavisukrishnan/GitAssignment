@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Add stop as Favourite(failed)">
+    <classes>
+      <class name="Selenium_Framework.Translink_UI.AddRouteAsFavourite">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchApplication"/>
+          <include name="addstopasFavourite"/>
+          <include name="searchAndSelectStop"/>
+          <include name="searchforStop"/>
+          <include name="initializeDriver"/>
+          <include name="selectBusdropdown"/>
+        </methods>
+      </class> <!-- Selenium_Framework.Translink_UI.AddRouteAsFavourite -->
+    </classes>
+  </test> <!-- Add stop as Favourite(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

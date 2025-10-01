@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Go to Bus schedules page(failed)">
+    <classes>
+      <class name="Selenium_Framework.Translink_UI.LoadBusPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initializeDriver"/>
+          <include name="selectBusdropdown"/>
+        </methods>
+      </class> <!-- Selenium_Framework.Translink_UI.LoadBusPageTest -->
+    </classes>
+  </test> <!-- Go to Bus schedules page(failed) -->
+  <test thread-count="5" parallel="tests" name="Add stop as Favourite(failed)">
+    <classes>
+      <class name="Selenium_Framework.Translink_UI.AddRouteAsFavourite">
+        <methods>
+          <include name="teardown"/>
+          <include name="addstopasFavourite"/>
+          <include name="searchAndSelectStop"/>
+          <include name="searchforStop"/>
+          <include name="initializeDriver"/>
+          <include name="selectBusdropdown"/>
+        </methods>
+      </class> <!-- Selenium_Framework.Translink_UI.AddRouteAsFavourite -->
+    </classes>
+  </test> <!-- Add stop as Favourite(failed) -->
+  <test thread-count="5" parallel="tests" name="Search for schedule to select a stop(failed)">
+    <classes>
+      <class name="Selenium_Framework.Translink_UI.SearchandSelectStopTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="selectBusdropdown"/>
+          <include name="searchforStop"/>
+          <include name="searchAndSelectStop"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- Selenium_Framework.Translink_UI.SearchandSelectStopTest -->
+    </classes>
+  </test> <!-- Search for schedule to select a stop(failed) -->
+</suite> <!-- Failed suite [Suite] -->
